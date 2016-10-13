@@ -1,16 +1,16 @@
 # design
 
-#Project Status
+##Project Status
 We are actively seeking development work. 
 
-#Getting Help or Reporting an Issue
+##Getting Help or Reporting an Issue
 To report bugs/issues/feature requests, please file an [issue](https://github.com/BCDevExchange/design/issues).
 
-#How to Contribute
+##How to Contribute
 
-If you would like to contribute to the package, please see our CONTRIBUTING guidelines. Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms.
+If you would like to contribute to the package, please see our CONTRIBUTING guidelines. Please note that this project is released with a [Contributor Code of Conduct](https://github.com/BCDevExchange/design/blob/master/CODE-OF-CONDUCT.md). By participating in this project you agree to abide by its terms.
 
-#License
+##License
 All code is licensed under the Apache License 2.0. See LICENSE.Apache-2.0 in the appropriate directories.
 
   Copyright 2015 Province of British Columbia
