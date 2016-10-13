@@ -3,6 +3,11 @@
 ##Project Status
 We are actively seeking development work. 
 
+##About
+[bcdevexchange.org](https://bcdevexchange.org/) is the public facing site for the BC Developers' Exchange - an experiment in tech innovation and collaboration.
+
+This repo is for design artifacts for a new responsive site. 
+
 ##Getting Help or Reporting an Issue
 To report bugs/issues/feature requests, please file an [issue](https://github.com/BCDevExchange/design/issues).
 
