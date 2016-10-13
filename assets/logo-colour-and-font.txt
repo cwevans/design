@@ -1,0 +1,4 @@
+Logo blue is #0042ff
+
+Logo font is Open Sans
+
