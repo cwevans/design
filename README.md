@@ -13,7 +13,7 @@ To report bugs/issues/feature requests, please file an [issue](https://github.co
 
 ##How to Contribute
 
-If you would like to contribute to the package, please see our CONTRIBUTING guidelines. Please note that this project is released with a [Contributor Code of Conduct](https://github.com/BCDevExchange/design/blob/master/CODE-OF-CONDUCT.md). By participating in this project you agree to abide by its terms.
+If you would like to contribute to the package, please see our [CONTRIBUTING guidelines](https://github.com/BCDevExchange/design/blob/master/CONTRIBUTING.md). Please note that this project is released with a [Contributor Code of Conduct](https://github.com/BCDevExchange/design/blob/master/CODE-OF-CONDUCT.md). By participating in this project you agree to abide by its terms.
 
 ##License
 All code is licensed under the Apache License 2.0. See LICENSE.Apache-2.0 in the appropriate directories.
