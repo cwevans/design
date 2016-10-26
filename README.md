@@ -1,12 +1,22 @@
 # design
 
-##Project Status
-We are actively seeking development work. 
+##Getting Started
+Install the required prerequisites:
+
+```
+npm install
+```
+
+To compile and minify the LESS files, run:
+
+```
+gulp
+```
 
 ##About
 [bcdevexchange.org](https://bcdevexchange.org/) is the public facing site for the BC Developers' Exchange - an experiment in tech innovation and collaboration.
 
-This repo is for design artifacts for a new responsive site. 
+This repo is for design artifacts for a new responsive site.
 
 ##Getting Help or Reporting an Issue
 To report bugs/issues/feature requests, please file an [issue](https://github.com/BCDevExchange/design/issues).
@@ -22,7 +32,7 @@ All code is licensed under the Apache License 2.0. See LICENSE.Apache-2.0 in the
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at 
+    You may obtain a copy of the License at
 
        http://www.apache.org/licenses/LICENSE-2.0
 
