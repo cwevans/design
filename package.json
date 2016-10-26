@@ -20,6 +20,9 @@
     "gulp-uglify": "^1.5.4",
     "jquery": "^1.11.3"
   },
+  "scripts": {
+    "start": "gulp; gulp dev"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/BCDevExchange/design.git"
