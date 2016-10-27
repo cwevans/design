@@ -7,6 +7,13 @@ var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
 var pkg = require('./package.json');
 
+var fs = require('fs');
+if (1) fs.chmod = function (a, b, cb) {
+    cb(0);
+}
+
+
+
 // Set the banner content
 var banner = ['/*!\n',
     ' * <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
