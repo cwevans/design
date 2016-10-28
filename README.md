@@ -7,10 +7,10 @@ Install the required prerequisites:
 npm install
 ```
 
-To compile and minify the LESS files, run:
+To compile, minify, and run a Gulp Dev server, run:
 
 ```
-gulp
+npm start
 ```
 
 ##About
