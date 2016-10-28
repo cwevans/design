@@ -21,13 +21,14 @@
     "jquery": "^1.11.3"
   },
   "scripts": {
-    "start": "gulp; gulp dev"
+    "start": "gulp dev"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/BCDevExchange/design.git"
   },
   "dependencies": {
+    "bootstrap-less": "^3.3.8",
     "simple-line-icons": "^2.3.2"
   }
 }
