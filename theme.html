@@ -20,46 +20,49 @@
     <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
 
     <link href="css/bc-devx.min.css" rel="stylesheet">
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-      }
-    </style>
   </head>
 
   <body>
 
-    <nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="/">BC Developer's Exchange</a>
-            </div>
+    <nav id="mainNav" class="navbar navbar-default">
+      <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+              </button>
+              <a class="navbar-brand page-scroll" href="/">
+                <img height="30" src="assets/logo/logo-blue.png" alt="BC Dev Exchange">
+              </a>
+          </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="/theme.html">Theme</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="/static.html">Static Page</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="/list.html">List Page</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="/detail.html">Detail Page</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Started <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/theme.html">Theme</a></li>
+                    <li><a href="/static.html">Static</a></li>
+                    <li><a href="/list.html">List</a></li>
+                    <li><a href="/detail.html">Detail</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Developers</a>
+                </li>
+                <li>
+                  <a href="#">Government</a>
+                </li>
+                <li>
+                  <a href="#">About</a>
+                </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
-    </nav>
+      </nav>
 
     <div class="container theme-showcase" role="main">
 
@@ -71,6 +74,11 @@
         </div>
       </div>
 
+      <div class="page-header">
+        <h1>Colours</h1>
+      </div>
+
+      <p>Coming soon...</p>
 
       <div class="page-header">
         <h1>Buttons</h1>
@@ -573,36 +581,102 @@
       </div>
       <div class="row">
         <div class="col-sm-6">
-          <div class="card card-default">
-            <i class="icon-people"></i>
-            <h3 class="card-title">Panel title</h3>
-            <p class="card-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
+
+          <div class="card">
+            <img class="card-img-left" src="/assets/photos/06-filter.jpg" alt="Card image cap" style="width:100%;">
+            <div class="card-block">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
           </div>
-          <div class="card card-primary">
-            <i class="icon-layers"></i>
-            <h3 class="card-title">Panel title</h3>
-            <p class="card-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
+
+          <div class="card">
+            <img class="card-img-top" src="/assets/photos/06-filter.jpg" alt="Card image cap" style="width:100%;">
+            <div class="card-block">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-block">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
           </div>
+
+
+
         </div><!-- /.col-sm-6 -->
         <div class="col-sm-6">
-          <div class="card card-success">
-            <i class="icon-chemistry"></i>
-            <h3 class="card-title">Panel title</h3>
-            <p class="card-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
+                    <div class="card">
+            <div class="card-block">
+              <h4 class="card-title">Card title</h4>
+              <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+            </div>
+            <img src="/assets/photos/06-filter.jpg" alt="Card image" style="width:100%;">
+            <div class="card-block">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
           </div>
-          <div class="card card-warning">
-            <i class="icon-globe"></i>
-            <h3 class="card-title">Panel title</h3>
-            <p class="card-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
+
+
+          <div class="card text-xs-center">
+            <div class="card-header">
+              Featured
+            </div>
+            <div class="card-block">
+              <h4 class="card-title">Special title treatment</h4>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <div class="card-footer text-muted">
+              2 days ago
+            </div>
           </div>
+
+
+          <div class="card text-xs-center">
+            <div class="card-header">
+              <ul class="nav nav-tabs card-header-tabs float-xs-left">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card-block">
+              <h4 class="card-title">Special title treatment</h4>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card card-block">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+
+          <div class="card">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+          </div>
+
         </div><!-- /.col-sm-6 -->
       </div>
 
@@ -647,6 +721,36 @@
 
 
     </div> <!-- /container -->
+
+    <footer class="footer-distributed">
+      <div class="container">
+        <div class="footer-right">
+          <object class="footer-logo" data="assets/logo/BCID-supported-pos.svg" type="image/svg+xml">
+            Supported by the Government of British Columbia
+          </object>
+          <!-- <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a> -->
+        </div>
+        <div class="footer-left">
+          <p class="footer-links">
+            <a href="#">Home</a>
+            ·
+            <a href="#">Open Opportunities</a>
+            ·
+            <a href="#">Open APIs</a>
+            ·
+            <a href="#">About</a>
+            ·
+            <a href="#">Blog</a>
+            ·
+            <a href="#">Contact</a>
+          </p>
+          <p>&copy; 2016 BC Developer's Exchange. All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
 
         <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
