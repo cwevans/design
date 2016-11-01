@@ -302,7 +302,6 @@ section.intro {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   padding-top: 105px !important;
-  padding-bottom: 160px !important;
 }
 section.intro h1 {
   font-weight: 700;
@@ -314,6 +313,10 @@ section.intro p {
   font-weight: 300;
   font-size: 18px;
   line-height: 1.6em;
+}
+section.intro ul {
+  font-size: 18px;
+  font-weight: 300;
 }
 section.audience {
   padding-top: 0px;
@@ -462,22 +465,7 @@ section.partners ul.list-partners {
 section.partners ul.list-partners li {
   margin-right: 20px;
 }
-section.partners ul.list-partners li img {
-  filter: none;
-  -webkit-filter: grayscale(1);
-  -moz-filter: grayscale(1);
-  -ms-filter: grayscale(1);
-  -o-filter: grayscale(1);
-  cursor: pointer;
-  transition: all 1s ease;
-}
-section.partners ul.list-partners li img:hover {
-  -webkit-filter: grayscale(0);
-  -moz-filter: grayscale(0);
-  -ms-filter: grayscale(0);
-  -o-filter: grayscale(0);
-}
-section.partners ul.list-partners li a {
+section.partners ul.list-partners a {
   display: block;
   height: 80px;
   width: 80px;
@@ -501,6 +489,71 @@ section.partners ul.list-partners li a {
 .jumbotron-primary {
   color: white;
   box-shadow: inset 0 0 0 1000px rgba(0, 154, 207, 0.5);
+}
+.demo {
+  width: 55px;
+  height: 100px;
+  float: left;
+  padding: 5px;
+  color: #FFF;
+  font-size: 10px;
+  box-sizing: border-box;
+}
+.demo,
+.demo-default {
+  background-color: transparent;
+}
+.demo-primary {
+  background-color: #009acf;
+}
+.demo-success {
+  background-color: #76b950;
+}
+.demo-info {
+  background-color: #a5d9ec;
+}
+.demo-warning {
+  background-color: #fbb034;
+}
+.demo-danger {
+  background-color: #d2492a;
+}
+.demo-theme-red {
+  background-color: #ee3224;
+}
+.demo-theme-pink {
+  background-color: #cf0072;
+}
+.demo-theme-purple {
+  background-color: #4f2d7f;
+}
+.demo-theme-lightblue {
+  background-color: #53caeb;
+}
+.demo-theme-darkblue {
+  background-color: #0061aa;
+}
+.demo-theme-lightgreen {
+  background-color: #12ad2b;
+}
+.demo-theme-darkgreen {
+  background-color: #006852;
+}
+.demo-theme-yellow {
+  background-color: #ffeb3b;
+  color: #4D4D4D;
+}
+.demo-theme-orange {
+  background-color: #ff9800;
+}
+.demo-theme-deeporange {
+  background-color: #ff5722;
+}
+.demo-theme-darkgrey {
+  background-color: #333333;
+}
+.demo-theme-lightgrey {
+  background-color: #777777;
 }
 .btn {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
