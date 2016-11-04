@@ -947,16 +947,21 @@ section.partners {
   padding: @panel-body-padding;
 }
 
-
-
 // Card image caps
 .card-img-top {
   border-radius: @panel-border-radius @panel-border-radius 0 0;
 }
+.card-img-left {
+  position: relative;
+  float: left!important;
+  width: 75px;
+  height: 75px;
+  border-radius: @panel-border-radius;
+  margin-right: 10px;
+}
 .card-img-bottom {
   border-radius: 0 0 @panel-border-radius @panel-border-radius;
 }
-
 
 //
 // Card set
@@ -1067,8 +1072,12 @@ section.partners {
 // Footer
 .footer-distributed{
 	width: 100%;
+  min-height: 200px;
 	text-align: left;
-	margin-top: 50px;
+	margin-top: 10px;
+  padding-top: 40px;
+  border-top: 1px solid fade(@gray-light, 30%);
+  background-color: #f8f8f8;
 }
 
 .footer-distributed .footer-left p{
