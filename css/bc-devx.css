@@ -5,7 +5,7 @@
  */
 .heading-font {
   font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 300;
+  font-weight: 600;
 }
 .body-font {
   font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
@@ -62,7 +62,7 @@ h4,
 h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 300;
+  font-weight: 600;
   padding: 0;
   margin-bottom: 0.75em;
 }
@@ -132,14 +132,14 @@ p {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 300;
+  font-weight: 600;
 }
 .navbar-transparent .navbar-header {
   margin-top: 8px;
 }
 .navbar-transparent .navbar-header .navbar-brand {
   font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 300;
+  font-weight: 600;
   color: #009acf;
 }
 .navbar-transparent .navbar-header .navbar-brand:hover,
@@ -853,6 +853,14 @@ section.partners ul.list-partners a {
 .card-img-top {
   border-radius: 4px 4px 0 0;
 }
+.card-img-left {
+  position: relative;
+  float: left!important;
+  width: 75px;
+  height: 75px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
 .card-img-bottom {
   border-radius: 0 0 4px 4px;
 }
@@ -927,8 +935,12 @@ section.partners ul.list-partners a {
 }
 .footer-distributed {
   width: 100%;
+  min-height: 200px;
   text-align: left;
-  margin-top: 50px;
+  margin-top: 10px;
+  padding-top: 40px;
+  border-top: 1px solid rgba(119, 119, 119, 0.3);
+  background-color: #f8f8f8;
 }
 .footer-distributed .footer-left p {
   font-size: 14px;
